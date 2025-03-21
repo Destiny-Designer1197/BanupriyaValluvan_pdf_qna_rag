@@ -16,7 +16,7 @@ COPY src/ /app/src
 COPY .env/ /app/.env
 
 # copy the PDF files
-COPY pdfs /app/pdfs
+COPY <Path/to/PDFs_Folder/> /app/pdfs
 
 # Set environment variables (optional)
 ENV PYTHONUNBUFFERED=1
